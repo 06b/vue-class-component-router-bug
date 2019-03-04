@@ -14,5 +14,17 @@ import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
     HelloWorld,
   },
 })
-export default class Home extends Vue {}
+export default class Home extends Vue {
+
+  async beforeRouteEnter (to: string, from: string, next: (to?: string)=> void): Promise<void> {
+    alert("beforeRouteEnter");
+    next();
+  }
+
+  async beforeRouteLeave (to: string, from: string, next: (to?: string)=> void): Promise<void> {
+    alert("beforeRouteLeave");
+    next();
+  }
+
+}
 </script>
