@@ -1,29 +1,11 @@
-# vue-class-component-router-bug
+# About
+Repo to show reduced test case for vue-class-component [Issue #316](https://github.com/vuejs/vue-class-component/issues/316)
 
-## Project setup
-```
-yarn install
-```
+![vue-class-component-router-bug](https://user-images.githubusercontent.com/1302542/53768903-2a807400-3ea8-11e9-94f2-71d43f3dcc6a.gif)
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
 
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Steps to reproduce:
+1. Yarn Install
+2. Yarn Serve
+3. Upgrading the package "vue-class-component": "^6.3.2" to "vue-class-component": "^7.0.1"
+4. Yarn Serve
