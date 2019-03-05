@@ -1,3 +1,5 @@
+# Fixed with vue-property-decorator@8.0.0 release. 🎉
+
 # About
 Repo to show reduced test case for vue-class-component [Issue #316](https://github.com/vuejs/vue-class-component/issues/316)
 
